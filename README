@@ -1,0 +1,9 @@
+This is a PHP script I partially barrowed, tweaked, and cobbled together over the years.
+
+It is designed to log into an IMAP email server, read the messages off the server, and parse out the message content and any attachments, then delete the message.
+
+What you do with the parsed output is up to you... You could save the attachments to a directory... You could save the text content to a database... You could forward the messages on... It's all up to you!
+
+Practical applications for this might be giving website users the ability to post photos and or comments via email.
+
+I welcome any modifications you may have.  Feel free to pull/clone and tweak as you see fit.
