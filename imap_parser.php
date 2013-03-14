@@ -156,8 +156,6 @@ do {
 		$notes = $partsarray[1]['text']['string'];
 	}
 
-	send_alert("Thanks for posting!", "Your message was received as follows: " . $notes, $from);
-
 	imap_delete($mbox, $msgid);
 	imap_expunge($mbox);
 	$msgid--;
